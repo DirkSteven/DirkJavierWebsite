@@ -14,7 +14,7 @@ const NavBar = () => {
     { name: 'Projects', href: '#projects' },
     { name: 'About Me', href: '#about' },
     { name: 'Contact Me', href: '#contact-me' },
-    { name: 'Resume', href: '/Javier_Resume_2025.pdf', download: true },
+    { name: 'Resume', href: '/Javier_Resume_2025v2.pdf', download: true },
   ];
 
   const handleNavClick = (e, href) => {
