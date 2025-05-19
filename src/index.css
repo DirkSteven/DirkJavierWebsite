@@ -1,0 +1,102 @@
+
+@import "tailwindcss";
+
+@layer utilities {
+  /* Background color */
+  .bg-background {
+    @apply bg-white;
+  }
+  .dark .bg-background {
+    @apply bg-zinc-950;
+  }
+
+  /* Inverse text color (light/dark contrast) */
+  .text-inverse {
+    @apply text-zinc-950;
+  }
+  .dark .text-inverse {
+    @apply text-white;
+  }
+
+  /* Inverse border color */
+  .border-inverse {
+    @apply border-zinc-950;
+  }
+  .dark .border-inverse {
+    @apply border-white;
+  }
+
+  /* Inverse icon or svg color */
+  .icon-inverse {
+    @apply text-zinc-950;
+  }
+  .dark .icon-inverse {
+    @apply text-white;
+  }
+
+  /* Hover color */
+  .hover-inverse {
+    @apply hover:bg-zinc-200;
+  }
+  .dark .hover-inverse {
+    @apply hover:bg-zinc-800;
+  }
+
+  /* Active link style */
+  .active {
+    @apply bg-zinc-200;
+  }
+  .dark .active {
+    @apply bg-zinc-800;
+  }
+
+  /* Force dark text in light mode, light text in dark mode */
+  .text-dark-on-light {
+    @apply text-zinc-950;
+  }
+  .dark .text-dark-on-light {
+    @apply text-zinc-100;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-shimmer-dot-loop {
+  position: relative;
+  border: 2px solid transparent;
+}
+
+.animate-shimmer-dot-loop::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    transparent 5deg,
+    rgba(59, 130, 246, 0.9) 5deg,
+    rgba(59, 130, 246, 0.9) 10deg,
+    transparent 10deg,
+    transparent 360deg
+  );
+  animation: rotate 2s linear infinite;
+}
+
+.dark .animate-shimmer-dot-loop::before {
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    transparent 5deg,
+    rgba(96, 165, 250, 0.9) 5deg,
+    rgba(96, 165, 250, 0.9) 10deg,
+    transparent 10deg,
+    transparent 360deg
+  );
+}
