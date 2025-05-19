@@ -1,4 +1,3 @@
-
 @import "tailwindcss";
 
 @layer utilities {
@@ -89,14 +88,10 @@
   animation: rotate 2s linear infinite;
 }
 
+.dark .animate-shimmer-dot-loop {
+  border: 2px solid white; /* Solid white border in dark mode */
+}
+
 .dark .animate-shimmer-dot-loop::before {
-  background: conic-gradient(
-    from 0deg,
-    transparent 0deg,
-    transparent 5deg,
-    rgba(96, 165, 250, 0.9) 5deg,
-    rgba(96, 165, 250, 0.9) 10deg,
-    transparent 10deg,
-    transparent 360deg
-  );
+  content: none; /* Disable shimmer effect in dark mode */
 }

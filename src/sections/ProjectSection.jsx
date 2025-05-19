@@ -122,7 +122,22 @@ const ProjectSection = () => {
                 </p>
               )}
             </div>
+{/* Divider Line */}
+<div className="w-full h-1 mt-12 bg-gradient-to-r from-blue-500 to-violet-500 rounded-full opacity-80 animate-fade-in-up" />
 
+{/* GitHub Stats and Language Stats Side by Side */}
+<div className="w-full flex flex-col md:flex-row justify-center items-center gap-6 pt-6 animate-fade-in-up">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=DirkSteven&show_icons=true&theme=transparent&hide_title=true&hide_rank=true"
+    alt="GitHub Stats"
+    className="w-full md:w-1/2 rounded-xl border border-zinc-300 dark:border-zinc-700 shadow-md"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=DirkSteven&layout=compact&theme=transparent&hide_title=true"
+    alt="Top Languages"
+    className="w-full md:w-1/2 rounded-xl border border-zinc-300 dark:border-zinc-700 shadow-md"
+  />
+</div>
             {/* Show Less */}
             <div
               className="flex flex-col justify-center items-center cursor-pointer hover-inverse transition-all duration-300 py-4 rounded-full"

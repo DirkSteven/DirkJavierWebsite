@@ -53,7 +53,7 @@ const MeSection = () => {
         <div className="mt-4 md:mt-6 flex flex-wrap items-center gap-6">
           <button
             onClick={handleScrollToCollaborate}
-            className="relative inline-flex items-center justify-center whitespace-nowrap rounded-lg bg-gray-900 text-white text-lg font-semibold shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 px-6 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 border border-transparent animate-shimmer-dot-loop"
+            className="relative inline-flex items-center justify-center whitespace-nowrap rounded-lg bg-gray-900 text-white text-lg font-semibold shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 px-6 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 border border-transparent animate-shimmer-dot-loop dark:ring-2 dark:ring-blue-500 dark:ring-offset-2"
           >
             <span className="relative z-10">Get in touch</span>
             <svg
