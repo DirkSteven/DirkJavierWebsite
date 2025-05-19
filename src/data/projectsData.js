@@ -66,6 +66,15 @@ export const projects = [
     technologies: ['Python', 'Flask', 'SQLite', 'HTML/CSS', 'JavaScript', 'SQLAlchemy'],
     status: 'On-Going', 
   },
+  {
+    title: 'DirkJavier',
+    projectLink: 'https://github.com/DirkSteven/pyceal2',
+    githubLink: 'https://github.com/DirkSteven/pyceal2',
+    description: 'My personal website, the website you are on',
+    achievements: [],
+    technologies: ['JavaScript', 'React', 'Tailwind CSS', 'HTML', 'Vite'],
+    status: 'On-Going', 
+  },
 
   
 ];
