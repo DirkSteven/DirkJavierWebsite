@@ -111,7 +111,7 @@ const ProjectSection = () => {
             </div>
 
             {/* Filtered Projects */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2">
               {filteredProjects.length > 0 ? (
                 filteredProjects.map((project, index) => (
                   <div key={index} className="w-full">

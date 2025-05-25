@@ -59,8 +59,8 @@ export const projects = [
   },
   {
     title: 'Decluttr',
-    projectLink: 'https://github.com/DirkSteven/pyceal2',
-    githubLink: 'https://github.com/DirkSteven/pyceal2',
+    projectLink: 'https://github.com/DirkSteven/Decluttr',
+    githubLink: 'https://github.com/DirkSteven/Decluttr',
     description: 'An online marketplace for refurbished phones.',
     achievements: [],
     technologies: ['Python', 'Flask', 'SQLite', 'HTML/CSS', 'JavaScript', 'SQLAlchemy'],
@@ -68,8 +68,8 @@ export const projects = [
   },
   {
     title: 'DirkJavier',
-    projectLink: 'https://github.com/DirkSteven/pyceal2',
-    githubLink: 'https://github.com/DirkSteven/pyceal2',
+    projectLink: 'https://github.com/DirkSteven/DirkJavierWebsite',
+    githubLink: 'https://github.com/DirkSteven/DirkJavierWebsite',
     description: 'My personal website, the website you are on',
     achievements: [],
     technologies: ['JavaScript', 'React', 'Tailwind CSS', 'HTML', 'Vite'],
